@@ -115,7 +115,7 @@ export default function AIChatBot({ onClose }) {
   const [messages, setMessages] = useState([
     {
       id: 1, role: 'bot',
-      text: "Hi! I'm **Smytten OpsBot** 👋\n\nI have real-time access to all your operational data — warehouse, delivery, inventory, CS, and more.\n\nHow can I help you today?",
+      text: "Hi! I'm **PulseOps Bot** 👋\n\nI have real-time access to all your operational data — warehouse, delivery, inventory, CS, and more.\n\nHow can I help you today?",
       time: new Date().toLocaleTimeString([], { hour: '2-digit', minute: '2-digit' }),
     },
   ]);
@@ -203,7 +203,7 @@ export default function AIChatBot({ onClose }) {
           </div>
           <div style={{ fontSize: 10, color: 'rgba(255,255,255,0.7)', display: 'flex', alignItems: 'center', gap: 4 }}>
             <div style={{ width: 5, height: 5, borderRadius: '50%', background: '#4ADE80', animation: 'pulse-r 2s infinite' }} />
-            Online · Smytten Ops
+            Online · PulseOps
           </div>
         </div>
         <button onClick={clearChat} title="Clear chat" style={{ background: 'none', border: 'none', cursor: 'pointer', padding: 4, borderRadius: 6, color: 'rgba(255,255,255,0.7)', display: 'flex', alignItems: 'center' }}>

@@ -33,7 +33,7 @@ export default function Sidebar({ active, onNav }) {
             <Zap size={18} color="#fff" fill="#fff" />
           </div>
           <div>
-            <div style={{ fontSize: 14, fontWeight: 700, color: 'var(--text)', letterSpacing: '-0.2px' }}>Smytten</div>
+            <div style={{ fontSize: 14, fontWeight: 700, color: 'var(--text)', letterSpacing: '-0.2px' }}>PulseOps</div>
             <div style={{ fontSize: 11, color: 'var(--muted)', fontWeight: 500 }}>Ops Intelligence</div>
           </div>
         </div>
@@ -105,7 +105,7 @@ export default function Sidebar({ active, onNav }) {
       {/* Footer */}
       <div style={{ padding: '14px 16px', borderTop: '1px solid var(--border-l)' }}>
         <div style={{ fontSize: 11, color: 'var(--muted)', marginBottom: 2 }}>Last sync: 10:42:31 AM</div>
-        <div style={{ fontSize: 10, color: 'var(--muted-l)' }}>v1.0.0-poc · Smytten Ops</div>
+        <div style={{ fontSize: 10, color: 'var(--muted-l)' }}>v1.0.0-poc · PulseOps</div>
       </div>
     </aside>
   );
